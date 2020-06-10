@@ -1,0 +1,5 @@
+# npm add react-router-dom
+# npm add typescript
+# npm install @fullpage/react-fullpage
+# npm install @material-ui/core
+# npm add styled-components @types/styled-components
