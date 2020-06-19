@@ -71,11 +71,8 @@ const PriceResult: FunctionComponent<any> = ({}) => {
           <StyledText>
             <h1>{itemName} 사기까지</h1>
             <img src={itemImage} width="150" />
-<<<<<<< HEAD
             <h1>{itemPrice + getArraySum(saveList)} 원</h1>
             <h1>남았습니다.</h1>
-=======
->>>>>>> 9236241461cb4ddf4070b4e2dbb3b0b59ca7206c
 
             <h1>
               {/* // @ts-ignore

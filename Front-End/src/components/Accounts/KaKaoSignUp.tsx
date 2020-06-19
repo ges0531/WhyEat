@@ -48,10 +48,10 @@ class KakaoSignUp extends Component<any, State> {
     this.setState({
       data: res,
     });
-    const semi_email = JSON.stringify(
-      this.state.data.profile.kakao_account.email
-    );
-    const _email = semi_email.replace(/^"+|"+$/g, "");
+    // const semi_email = JSON.stringify(
+    //   this.state.data.profile.kakao_account.email
+    // );
+    // const _email = semi_email.replace(/^"+|"+$/g, "");
     // const semi_age = JSON.stringify(this.state.data.profile.kakao_account.age_range[0])
     // const s_age = semi_age.replace(/^"+|"+$/g, '')
     // const _age = parseInt(s_age)
@@ -89,7 +89,7 @@ class KakaoSignUp extends Component<any, State> {
             url: `${_url}/api/user_list/`,
             data: {
               password: 1234,
-              email: _email,
+              // email: _email,
               kakao_id: JSON.stringify(this.state.data.profile.id),
               nickname: JSON.stringify(
                 this.state.data.profile.properties.nickname

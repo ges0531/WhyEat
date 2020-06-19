@@ -260,7 +260,7 @@ const Survey: FunctionComponent<any> = ({fullpage_api}) => {
     ],
     [
       "파스타",
-      "https://scontent-yyz1-1.cdninstagram.com/v/t51.2885-15/sh0.08/e35/s640x640/67344753_102419641078121_3977315267022583304_n.jpg?_nc_ht=scontent-yyz1-1.cdninstagram.com&_nc_cat=105&_nc_ohc=85rSuHundR8AX_PmgFW&oh=9fcabe89efb8e58e76f858d81be31a85&oe=5EAD9328",
+      "https://recipe1.ezmember.co.kr/cache/recipe/2017/08/29/06aeec1ba776da24fc6479199fb5b9a61.jpg",
       false,
     ],
     ["곱창", "https://t1.daumcdn.net/cfile/tistory/234F5D3D586B0E6229", false],
